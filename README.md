@@ -1,6 +1,7 @@
 # daysWithoutIncident
 
 [![CI](https://github.com/Idzanaagi/daysWithoutIncident/workflows/CI/badge.svg)](https://github.com/Idzanaagi/daysWithoutIncident/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0a10e9dc56058d18e185/maintainability)](https://codeclimate.com/github/Idzanaagi/daysWithoutIncident/maintainability)
 
 Штука для подсчёта промежутка прошедших дней. Максимально базовая версия
 
