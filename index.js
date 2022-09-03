@@ -3,15 +3,14 @@ import readlineSync from 'readline-sync';
 import firstStart from './src/firstStart.js';
 import createIncident from './src/incident.js';
 
-const question = 'Is this the first run? (yes/no) ';
+const question = 'Is this the first run? (y/n) ';
 
-const greeting = readlineSync.question(question.toLowerCase());
-if (greeting !== 'yes' && greeting !== 'no') {
-  console.log("Sorry, I only understand 'yes' or 'no' (and ctrl-c)");
-}
-if (greeting === 'yes') {
+const greeting = readlineSync.question(question);
+
+if (greeting.toLowerCase() === 'yes' || greeting.toLowerCase() === 'y') {
   firstStart();
-}
-if (greeting === 'no') {
+} else if (greeting.toLowerCase() === 'no' || greeting.toLowerCase() === 'n') {
   createIncident();
+} else {
+  console.log("Sorry, I only understand 'yes' or 'no' (and ctrl-c)");
 }
