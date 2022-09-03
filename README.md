@@ -1,5 +1,7 @@
 # daysWithoutIncident
 
+[![CI](https://github.com/Idzanaagi/daysWithoutIncident/workflows/CI/badge.svg)](https://github.com/Idzanaagi/daysWithoutIncident/actions)
+
 Штука для подсчёта промежутка прошедших дней. Максимально базовая версия
 
 Как работает: после запуска утилиты (и подтверждения, что пользователь готов начать отсчёт) записывается дата. При повторном запуске (и подтверждении, что отсчёт надо пректратить) утилита выдаёт количество прошедших дней. 
