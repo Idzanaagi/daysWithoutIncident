@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export const formattingDate = (arg) => {
+const formattingDate = (arg) => {
   const getPartsOfDate = arg.split('-');
   const filteredParts = getPartsOfDate.map((item) => (item.startsWith('0') ? item.slice(1) : item));
   const [yy, mm, dd] = filteredParts;
@@ -18,3 +18,5 @@ export const getDiffrent = () => {
   const delta = nowDate.getTime() - oldDate.getTime();
   return Math.floor(delta / 1000 / 60 / 60 / 24);
 };
+
+export default getDiffrent;

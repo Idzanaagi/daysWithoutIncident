@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import { getDiffrent } from '../diffrentDate.js';
+import { getDiffrent } from './getDiffrentDate.js';
 
 const questionAbout = 'Did the incident happen? (y/n) ';
 

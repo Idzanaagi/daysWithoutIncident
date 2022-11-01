@@ -1,4 +1,4 @@
 /* eslint-disable import/extensions */
-import { getDiffrent } from './diffrentDate.js';
+import { getDiffrent } from './getDiffrentDate.js';
 
 console.log(`Days without incident: ${getDiffrent()}`);

@@ -6,4 +6,4 @@ lint:
 start: 
 	node index.js
 stat: 
-	node getStat.js
+	node src/getStat.js
